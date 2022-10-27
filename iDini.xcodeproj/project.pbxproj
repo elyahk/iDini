@@ -16,6 +16,10 @@
 		6EC15DF8290B1DD60056E06C /* iDiniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC15DF7290B1DD60056E06C /* iDiniTests.swift */; };
 		6EC15E02290B1DD60056E06C /* iDiniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC15E01290B1DD60056E06C /* iDiniUITests.swift */; };
 		6EC15E04290B1DD60056E06C /* iDiniUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC15E03290B1DD60056E06C /* iDiniUITestsLaunchTests.swift */; };
+		6EC15E14290B1E310056E06C /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC15E10290B1E310056E06C /* Menu.swift */; };
+		6EC15E15290B1E310056E06C /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 6EC15E11290B1E310056E06C /* menu.json */; };
+		6EC15E16290B1E310056E06C /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC15E12290B1E310056E06C /* Order.swift */; };
+		6EC15E17290B1E310056E06C /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC15E13290B1E310056E06C /* Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		6EC15DFD290B1DD60056E06C /* iDiniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iDiniUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EC15E01290B1DD60056E06C /* iDiniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDiniUITests.swift; sourceTree = "<group>"; };
 		6EC15E03290B1DD60056E06C /* iDiniUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDiniUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6EC15E10290B1E310056E06C /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		6EC15E11290B1E310056E06C /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		6EC15E12290B1E310056E06C /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		6EC15E13290B1E310056E06C /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,10 @@
 		6EC15DDF290B1DD40056E06C /* iDini */ = {
 			isa = PBXGroup;
 			children = (
+				6EC15E13290B1E310056E06C /* Helper.swift */,
+				6EC15E11290B1E310056E06C /* menu.json */,
+				6EC15E10290B1E310056E06C /* Menu.swift */,
+				6EC15E12290B1E310056E06C /* Order.swift */,
 				6EC15DE0290B1DD40056E06C /* AppDelegate.swift */,
 				6EC15DE2290B1DD40056E06C /* SceneDelegate.swift */,
 				6EC15DE4290B1DD40056E06C /* ViewController.swift */,
@@ -233,6 +245,7 @@
 			files = (
 				6EC15DED290B1DD60056E06C /* LaunchScreen.storyboard in Resources */,
 				6EC15DEA290B1DD60056E06C /* Assets.xcassets in Resources */,
+				6EC15E15290B1E310056E06C /* menu.json in Resources */,
 				6EC15DE8290B1DD40056E06C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +273,10 @@
 			files = (
 				6EC15DE5290B1DD40056E06C /* ViewController.swift in Sources */,
 				6EC15DE1290B1DD40056E06C /* AppDelegate.swift in Sources */,
+				6EC15E16290B1E310056E06C /* Order.swift in Sources */,
+				6EC15E14290B1E310056E06C /* Menu.swift in Sources */,
 				6EC15DE3290B1DD40056E06C /* SceneDelegate.swift in Sources */,
+				6EC15E17290B1E310056E06C /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
